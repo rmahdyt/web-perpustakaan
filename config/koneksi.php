@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = ""; // Kosongkan jika pakai XAMPP default
-$db   = "perpustakaan_sekolah"; // Pastikan nama database sama persis
+$pass = ""; 
+$db   = "perpustakaan_sekolah";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
